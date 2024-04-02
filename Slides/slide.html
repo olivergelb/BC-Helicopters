@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slideshow</title>
+<style>
+    .slide-container {
+        width: 640px;
+        height: 426px;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .image-container {
+        width: 640px;
+        height: 426px;
+        position: relative;
+        transition: left 2s;
+    
+    }
+
+   .slide-image {
+    float: left;
+    margin: 0px;
+    padding: 0px
+   }
+   .slide-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, .45);
+    margin: 5px;
+   }
+   #slide-image-1:target~.image-container {
+    left: 0px;
+   }
+   #slide-image-1:target~.image-container {
+    left: -640px;
+   } 
+   #slide-image-2:target~.image-container {
+    left: -1280px;
+   }
+   #slide-image-3:target~.image-container {
+    left: -1920px;
+   }
+   #slide-image-5:target~.image-container {
+    left: -2560px;
+   }
+      .button-container{
+        position: relative;
+        top: -50px;
+
+      }
+      h3 {
+      text-align: center; color: red;
+    }
+    
+</style>
+</head>
+<body>
+    
+
+<h3> Famous Cities of The World</h3>
+<div class="slide-container">
+    <span id="'slide-image-1"></span>
+    <span id="'slide-image-2"></span>
+    <span id="'slide-image-3"></span>
+    <span id="'slide-image-4"></span>
+    <span id="'slide-image-5"></span>
+    <div class="image-container">
+    <img src="./images/1.jpg" class="slide-image" alt="photo1">
+    <img src="./images/2.jpg" class="slide-image" alt="photo2">
+    <img src="./images/3.jpg" class="slide-image" alt="photo3">
+    <img src="./images/4.jpg" class="slide-image" alt="photo4">
+    <img src="./images/5.jpg" class="slide-image" alt="photo5">
+    </div>
+</div class="button-container">
+<a href="#slide-image-1" class="slide-button"></a>
+<a href="#slide-image-2" class="slide-button"></a>
+<a href="#slide-image-3" class="slide-button"></a>
+<a href="#slide-image-4" class="slide-button"></a>
+<a href="#slide-image-5" class="slide-button"></a>
+</div>
+</div>
+</body>
+
+</html>

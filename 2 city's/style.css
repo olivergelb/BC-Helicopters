@@ -1,0 +1,246 @@
+
+
+#logo {
+    width: 90px;
+    height: 50px;
+    top: 5px;
+    left: 10px;
+    position: fixed;
+    z-index: 15000;
+
+}
+
+
+
+/* index page */
+#first_title {
+    width: 700px;
+    margin: 30vh auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+}
+
+/* end index page */
+/* about us page */
+.about_text {
+width: 700px;
+Margin: 30vh auto;
+text-align: center;
+color: rgb(0, 140, 255) ;
+Font-size: 30px;
+margin-top:-100px;
+background-color: rgba(0, 0, 0, 0.61);
+width: 78%;
+margin-left: 15%;
+color: rgba(255, 255, 255, 0.685);
+margin-top: -200px;
+line-height: 2em;
+text-align: center;
+font-size: 20px;
+/* padding: 10px; */
+
+
+
+
+}
+/* end of about us page */
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    width: 500px;
+    margin: 100px auto;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+.Requestform {
+    margin-top: 100px;
+    color: black;
+}
+
+input,
+textarea {
+    display: block;
+    border: 1px solid;
+    border-color: lightblue;
+    border-radius: 4px;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: cornflowerblue;
+    padding: 0.9em;
+}
+.row{
+    margin-top:20px;
+    width:200px;
+    display:flex;
+    height:20px;
+
+}
+input {
+    height: 20px;
+
+}
+
+input:focus {
+    background-color: papayawhip;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+textarea:focus {
+    background-color: papayawhip;
+}
+
+.radio,
+.checkbox {
+    width: auto;
+    display: inline-block;
+  padding: 1px;
+
+}
+
+
+.select {
+    width: auto;
+    display: inline-block;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    padding: 0;
+
+}
+
+.submit,
+.reset {
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    color:black;
+    padding: 0.6em 0.9em;
+
+}
+
+
+
+h2 {
+    font-size: 2em;
+    margin: 20px;
+}
+
+#menu {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    background-color: black;
+    z-index: 1000;
+}
+
+#menu li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 1.2em;
+    line-height: 60px;
+    padding-right: 30px;
+    z-index: 3000;
+}
+
+#menu li:hover {
+    color: darkgoldenrod;
+}
+
+
+#text {
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+.sub_text {
+    margin: 20px;
+    line-height: 2em;
+    width: 350px;
+}
+
+
+#pic1,
+#pic2,
+#pic3 {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    margin-top: 150px;
+}
+
+footer {
+    padding-left: 70px;
+    position: fixed;
+    bottom: 0px;
+    text-align: left;
+    width: 100%;
+    margin-top: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#combine {
+    display: flex;
+    width: 90vw;
+    margin: 0 auto;
+    }
+    #one,
+    #two,
+    #three {
+        display: flex;
+        flex-direction: column;
+        width: 30vw; margin-top: 100px;
+    }
+        .center {
+            text-align: center;
+        }
+        .picture {
+            width: 350px;
+            height: 250px;
+            margin: auto; margin-top:100px;
+            display : block;
+
+        }
+        .Page3_Title {
+            margin: 10px;
+            padding: 20px;
+            width: 30vw;
+        }
+
+        .Page3_text {
+            margin-top: 5px;
+            line-height: 2em;
+            
+        }
